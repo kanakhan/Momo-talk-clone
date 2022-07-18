@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shiroko - MOMO TALK</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>docodemo</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>23:52</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-2x"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fas fa-angle-left fa-lg"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">호시노</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">
+        <i class="far fa-calendar"></i>2022년 7월 18일 화요일
+      </div>
+      <div class="message-row">
+        <img src="kokoa_pic/hoshino.png" />
+        <div class="message-row__content">
+          <span class="message__author">호시노</span>
+          <div class="message__info">
+            <span class="message__bubble"
+              >아.. 어째서 사람은 아침에 일어나야 하는 걸까.</span
+            >
+            <span class="message__time"></span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="kokoa_pic/hoshino.png" />
+        <div class="message-row__content">
+          <span class="message__author">호시노</span>
+          <div class="message__info">
+            <span class="message__bubble"
+              >눈꺼풀이 너무 무거워 선생 도와줘...</span
+            >
+            <span class="message__time">08:20</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row__own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">학생의 숙명이니까...</span>
+            <span class="message__time">08:21</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="kokoa_pic/hoshino.png" />
+        <div class="message-row__content">
+          <span class="message__author">호시노</span>
+          <div class="message__info">
+            <span class="message__bubble"
+              >물고기처럼 눈꺼풀이 없으면 차라리 좋겠는데 말이지... 음냐.</span
+            >
+            <span class="message__time">08:21</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="메시지를 입력하세요..." />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span>이 사이트는 큰 화면에 최적화되지 않았습니다!</span>
+      <span>창을 줄여주세요!</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/1b7026f12c.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
