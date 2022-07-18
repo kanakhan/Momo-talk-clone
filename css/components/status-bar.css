@@ -1,0 +1,43 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.status-bar__column {
+    width: 33%;
+}
+
+.status-bar__column:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+
+.status-bar__column:nth-child(3) {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.main-status{
+    padding: 8px 2px;
+}
+
+.status-bar{
+    box-sizing: border-box;
+    position: fixed;
+    top:-8px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:7px 7px;
+    background-color: white;
+    z-index: 2;
+}
+.status-bar__column:nth-child(1) i{
+    margin-left: 5px;
+}
+
+.status-bar__column .fa-battery-full {
+    margin:0px 5px;
+}
